@@ -1,0 +1,48 @@
+.body {
+  width: 800px;
+  height: 100vh;
+  margin: 0px auto;
+  background: rgb(168, 77, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 77, 233, 1) 0%,
+    rgba(253, 101, 49, 1) 100%
+  );
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  box-shadow: 0px 0px 40px grey;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 200px;
+  margin: 100px auto 50px;
+}
+
+.link-box ul li {
+  margin: 20px auto;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 4px solid white;
+}
+
+.link-box ul li:hover {
+  border: 4px solid #ff00f4;
+}
+
+.link-box ul li span {
+  vertical-align: middle;
+  font-size: 18px;
+}
+.link-box ul li img {
+  vertical-align: middle;
+  padding-right: 20px;
+  padding-left: 20px;
+}
