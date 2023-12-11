@@ -252,7 +252,7 @@ _flutter.loader = null;
      */
     async loadEntrypoint(options) {
       const {
-        entrypointUrl = `${baseUri}/game/snake/main.dart.js`,
+        entrypointUrl = `${baseUri}game/snake/main.dart.js`,
         onEntrypointLoaded,
       } = options || {};
 

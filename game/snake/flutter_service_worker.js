@@ -4,46 +4,56 @@ const TEMP = "flutter-temp-cache";
 const CACHE_NAME = "flutter-app-cache";
 
 const RESOURCES = {
-  "version.json": "b44e87eff5fb0c707003d226d0ba8b24",
-  "index.html": "e86645483288aa953888b0a66aee70dc",
+  "game/snake/version.json": "b44e87eff5fb0c707003d226d0ba8b24",
+  "game/snake/index.html": "e86645483288aa953888b0a66aee70dc",
   "/": "e86645483288aa953888b0a66aee70dc",
-  "main.dart.js": "ec434b3e56bb2247560f1a976a1e1bb8",
-  "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-  "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-  "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-  "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-  "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-  "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-  "manifest.json": "e2103315415e50023a22aa0898f4db8b",
-  "assets/AssetManifest.json": "ffac4e5933f797bbfe8960e1c03a56fe",
-  "assets/NOTICES": "e8c1207ad7b924d944013885b92656f6",
-  "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-  "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf":
+  "game/snake/main.dart.js": "ec434b3e56bb2247560f1a976a1e1bb8",
+  "game/snake/flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
+  "game/snake/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+  "game/snake/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+  "game/snake/icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+  "game/snake/icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+  "game/snake/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+  "game/snake/manifest.json": "e2103315415e50023a22aa0898f4db8b",
+  "game/snake/assets/AssetManifest.json": "ffac4e5933f797bbfe8960e1c03a56fe",
+  "game/snake/assets/NOTICES": "e8c1207ad7b924d944013885b92656f6",
+  "game/snake/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+  "game/snake/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf":
     "57d849d738900cfd590e9adc7e208250",
-  "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
-  "assets/AssetManifest.bin": "1f5ed806f2b637f40b0286afcb9bf6fc",
-  "assets/fonts/MaterialIcons-Regular.otf": "62ec8220af1fb03e1c20cfa38781e17e",
-  "assets/assets/images/body.png": "330367d8d98766d258aea5bd628366a2",
-  "assets/assets/images/game_logo.png": "8ed95ebf68cd3f6e594446059abb5d3f",
-  "assets/assets/images/keyboard_set.png": "6df7ae571ca347811c7ea0f89f246e9c",
-  "assets/assets/images/apple.png": "f1b48d2f36067a46d660c50a39750040",
-  "assets/assets/images/head.png": "56cdbd3653a4de3ab74b5de4acd27183",
-  "assets/assets/images/game_over.png": "b0b6f7f9222635c99844d27b6d56dd97",
-  "canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
-  "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
-  "canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
-  "canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
-  "canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
-  "canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
-  "canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
+  "game/snake/assets/shaders/ink_sparkle.frag":
+    "f8b80e740d33eb157090be4e995febdf",
+  "game/snake/assets/AssetManifest.bin": "1f5ed806f2b637f40b0286afcb9bf6fc",
+  "game/snake/assets/fonts/MaterialIcons-Regular.otf":
+    "62ec8220af1fb03e1c20cfa38781e17e",
+  "game/snake/assets/assets/images/body.png":
+    "330367d8d98766d258aea5bd628366a2",
+  "game/snake/assets/assets/images/game_logo.png":
+    "8ed95ebf68cd3f6e594446059abb5d3f",
+  "game/snake/assets/assets/images/keyboard_set.png":
+    "6df7ae571ca347811c7ea0f89f246e9c",
+  "game/snake/assets/assets/images/apple.png":
+    "f1b48d2f36067a46d660c50a39750040",
+  "game/snake/assets/assets/images/head.png":
+    "56cdbd3653a4de3ab74b5de4acd27183",
+  "game/snake/assets/assets/images/game_over.png":
+    "b0b6f7f9222635c99844d27b6d56dd97",
+  "game/snake/canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
+  "game/snake/canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+  "game/snake/canvaskit/chromium/canvaskit.js":
+    "8c8392ce4a4364cbb240aa09b5652e05",
+  "game/snake/canvaskit/chromium/canvaskit.wasm":
+    "fc18c3010856029414b70cae1afc5cd9",
+  "game/snake/canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
+  "game/snake/canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+  "game/snake/canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
 };
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "main.dart.js",
-  "index.html",
-  "assets/AssetManifest.json",
-  "assets/FontManifest.json",
+  "game/snake/main.dart.js",
+  "game/snake/index.html",
+  "game/snake/assets/AssetManifest.json",
+  "game/snake/assets/FontManifest.json",
 ];
 
 // During install, the TEMP cache is populated with the application shell files.
